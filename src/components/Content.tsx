@@ -1,7 +1,8 @@
 import {MovieCard} from "./MovieCard";
 import {useEffect, useState} from "react";
-import {GenreResponseProps} from "../App";
+
 import {api} from "../services/api";
+import {GenreResponseProps} from "./SideBar";
 
 export interface MovieProps {
     imdbID: string;
